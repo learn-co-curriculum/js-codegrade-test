@@ -1,5 +1,5 @@
 describe("todo", () => {
   it("todo", () => {
-    expect(aVariable).to.equal("hello");
+    expect(greeting).to.equal("hello");
   });
 });
