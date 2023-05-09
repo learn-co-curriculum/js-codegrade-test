@@ -6,17 +6,11 @@ const chai = require("chai");
 
 global.expect = chai.expect;
 
-const html = fs.readFileSync(
-  path.resolve(__dirname, "..", "index.html"),
-  "utf-8"
-);
+const html = fs.readFileSync(path.resolve(__dirname, "index.html"), "utf-8");
 
-const { code } = babel.transformFileSync(
-  path.resolve(__dirname, "..", "index.js"),
-  {
-    presets: ["@babel/preset-env"],
-  }
-);
+const { code } = babel.transformFileSync(path.resolve(__dirname, "index.js"), {
+  presets: ["@babel/preset-env"],
+});
 
 jsdom({
   html,
