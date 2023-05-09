@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-05-09T18:37:32.198Z",
+    "end": "2023-05-09T18:37:32.419Z",
+    "duration": 221
+  },
+  "tests": [
+    {
+      "title": "todo",
+      "fullTitle": "todo todo",
+      "file": "/Users/lindaseiter/code/phase0/labs/my-codegrade-test/test/index.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "todo",
+      "fullTitle": "todo todo",
+      "file": "/Users/lindaseiter/code/phase0/labs/my-codegrade-test/test/index.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
